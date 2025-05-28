@@ -116,3 +116,12 @@ If you find this Interactive Feedback MCP useful, the best way to show appreciat
 For any questions, suggestions, or if you just want to share how you're using it, feel free to reach out on X!
 
 Also, check out [dotcursorrules.com](https://dotcursorrules.com/) for more resources on enhancing your AI-assisted development workflow.
+
+
+
+## rules
+"Whenever you want to ask a question, you must call the MCP interactive_feedback function. Before providing any answers or solutions, you must call MCP interactive_feedback to confirm with the user. Continue calling interactive_feedback after each important interaction until the user explicitly indicates satisfaction or that the conversation should end. Only stop calling MCP in the following situations:
+
+The user explicitly says words indicating completion like "done", "finished", "satisfied", etc.
+The user explicitly indicates they don't need further help
+The user's feedback clearly indicates the task is completed
